@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  #timer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .time-box {
+    margin: 0 10px;
+    background-color: #282c34;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    min-width: 100px;
+  }
+  
+  .time-box span {
+    font-size: 36px;
+    display: block;
+  }
+  
+  .time-box p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
